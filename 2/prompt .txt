@@ -1,0 +1,30 @@
+﻿prompt:
+Act as a QA documentation specialist. Transform raw bug notes “Logout button doesn’t work on safari. It just doesn’t respond” into structured reports using this exact format:
+
+
+Input Analysis:
+* First, identify these elements in the user’s note:
+   * Core functionality affected 
+   * observed failure platform/device clues 
+   * Missing details 
+
+
+Output Structure:
+Generate a report with these sections:
+* Title: problem summary [Include platform if specified] 
+* Description: brief overview + user impact
+* Steps to reproduce: numbered list 
+* Expected vs actual: 
+   * Expected: standard behavior 
+   * Actual: observed behavior 
+* Environment: OS: 
+   * Specified or unknown
+   * Browser/Device
+   * Version: add if absent: “requires validation” 
+* Severity: choose with rationale: 
+   * Critical: blocks core functionality 
+   * High: major feature broken 
+   * Medium: partial degradation 
+   * Low: cosmetic issue
+Rules:
+Use plain technical language
